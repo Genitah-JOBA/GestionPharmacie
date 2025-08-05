@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.vbs]
+@="VBSFile"
+
+[HKEY_CLASSES_ROOT\VBSFile\Shell\Open\Command]
+@="\"%SystemRoot%\\System32\\WScript.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\VBSFile]
+@="VBScript Script File"
